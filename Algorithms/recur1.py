@@ -1,11 +1,12 @@
-# recursion
+"""Count down with recursion"""
+
 
 def countdown(i):
+    """Count down function"""
     print(i)
     if i <= 1:
         return
-    else:
-        countdown(i - 1)
+    countdown(i - 1)
 
 
 countdown(9)
