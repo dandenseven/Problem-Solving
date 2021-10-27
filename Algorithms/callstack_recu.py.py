@@ -1,3 +1,6 @@
+"""recursion with using call stack"""
+
+
 def fact_x(x):
     if x == 1:
         return 1
